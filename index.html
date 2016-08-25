@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <script type="text/javascript" src="jquery-2.2.3.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <canvas id="canva" width="400" height="400"></canvas><br />
+  Hue scaling: <input type="text" id="huescale" value="30"><br />
+  Saturation scaling: <input type="text" id="satscale" value="25"><br />
+  Lightness: <input type="text" id="lightness" value=".5"><br />
+  Update period: <input type="text" id="timestep" value="100"><br />
+  Click strength: <input type="text" id="clickpower" value="100"><br />
+  Carefulness: <input type="text" id="care" value="1"><br />
+  <button onclick="updatescales()"> Update </button>
+  <button onclick="reset()"> Reset </button>
+  <button onclick="randomgrid()"> Random </button>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
